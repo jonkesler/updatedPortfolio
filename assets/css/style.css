@@ -1,0 +1,175 @@
+body {
+height: 100%;
+position: relative;
+/* padding: 10px, 10px, 10px, 10px; */
+}
+/* Main container for page - gives padding between header and footer and section cards */
+.main-container {
+    min-height: 94%;
+    /* min-height: 100vh; */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    /* removing makes footer stay at bottom during resize */
+    /* padding-bottom: 100px; */
+    background-color: white
+}
+
+/* remove navbar padding so navbar-brand color goes to top and bottom of navbar */
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+ .nav-item {
+    padding-right: 50px;
+    padding-left: 20px;
+    /* align-items: center; */
+  }
+
+/* moves name to the right to line up with About */
+.navbar .navbar-brand {
+    padding: 10px;
+    /* add color behind name like example */
+    padding-left: 25px;
+    padding-right: 25px;
+    /* background-color: rgba(91, 146, 146, 0.89); */
+    color: gray;
+    font-size: 22pt;
+}
+/* Main container for page - holds Cards and gives padding between header and footer */
+/* section { */
+    /* padding-left: 20px; */
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px;    */
+/* } */
+
+.row {
+    border: White;
+}
+
+/* Main Card Title */
+.card-title {
+    text-align: center;
+    color: white;
+    font-size: 24pt;
+    padding-top: 45px;
+}
+
+/* Card Header - Project */
+.card-header {
+    text-align: left;
+    color: white;
+    font-size: 24pt;
+    background: gray;
+    /* padding-top: 45px; */
+}
+
+.card-text {
+    text-align: center;
+    color: white;
+    font-size: 13pt;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.card-text2 {
+    text-align: left;
+    color: gray;
+    font-size: 13pt;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* Card background images - fills card - portfolio page */
+/* https://stackoverflow.com/questions/50461506/how-to-size-the-image-in-equal-length-in-bootstrap-card */
+.card-img {
+    width: 100%!important;
+    /* height: 100%!important; */
+    height: 100%!important;
+    object-fit: cover;
+    /* container of card-badge so added for spacing */
+    position: relative;
+ }
+
+/* badge for card-img */
+.card .card-badge {
+    position: absolute;
+    /* padding-bottom: 5px */
+    width: 100%;
+    padding: 10px;
+    background: gray;
+    color: white;
+    text-align: center;
+}
+.contact {
+    color: gray;
+    text-align: right;
+    font-style: italic;
+    padding-top: 50px;
+    padding-right: 25px;
+}
+/* horizontal line under Main Card Title */
+hr {
+   size: 3px;
+   width: 100%;
+}
+/* float image so text will wrap on About Page */
+img {
+    float: left;
+    width: 100%;
+    height: 100%;
+    /* padding-right: 15px; */
+    /* padding-bottom: 10px; */
+}
+
+/* form {
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding-left: 55px;
+    padding-bottom: 70px;
+} */
+
+p {
+    padding-top: 5px;
+}
+
+p2 {
+    padding-top: 1px;
+}
+
+.button {
+    color: white;
+    background: gray;
+    border: gray;
+}
+
+.btn {
+    color: #ffffff;
+    background: gray;
+    border: gray;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: center; 
+    align-content: center;
+}
+
+.card .card-footer {
+    background: white;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+    /* border-top: 5px solid gray; */
+    padding: 15px; 
+    background: white; 
+    text-align: center ;
+    color: gray;
+    font-size: 11px ;
+    font-style: italic;
+}

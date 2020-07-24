@@ -1,0 +1,25 @@
+@media only screen and (max-width: 990px) {
+    /* Main container for page - holds Cards and gives padding between header and footer */
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    /* body {
+        background-color: red;
+      } */
+  }
+  @media only screen and (max-width: 767px) {
+    /* Main container for page - holds Cards and gives padding between header and footer */
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* instructions say xs has no margin on left or right */
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    }
+    /* body {
+        background-color: blue  ;
+      }
+  } */

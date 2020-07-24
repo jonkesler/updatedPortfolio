@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="sytlesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- media queries for screens 780 and 640 -->
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <title>Jon Kesler Responsive Portfolio</title>
+  </head>
+    <body>
+        <!-- main-container will allow footer to always be at bottom of viewport 
+        https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551 -->
+    <div class="main-container">
+        <!-- use Card to overlay NavBar -->
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-light" style="background-color: white">
+                <a class="navbar-brand" href="index.html"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- chage mr-auto to ml-auto to aline to right -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- remove active from nav-item so it's not bold -->
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html">About   <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">Resume</a>
+                            </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="project.html">Group Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section>
+            <!-- <div class="row"> -->
+            <div class="row row-cols-1 row-cols-md-2">
+                <!-- add media for screen sizes -->
+                <div class="col-sm-10 col-md-10 col-lg-10">
+                    <div class="card text-white">
+                        <!-- <div class="card-body"> -->
+                        <img src="./assets/images/BWBackground2.jpg" class="card-img" alt="Balck and White Picture of Tybee Island Pier">
+                        <div class="card-img-overlay">
+                            <h1 class="card-title">Jon Kesler
+                            <br>Full Stack Web Developer</h1>
+                            <p class="card-text">Web designer and developer from Savannah, GA. 
+                                I strive to create custom websites that help businesses compete better online.
+                                </p>
+                            <p class="card-text">From the idea to the wireframing and coding.  Utilizing the 
+                                latest JavaScript, Node.js, MySql, and MongoDb technologies.  Jon will guide 
+                                you through the endless possibilities available with modern web apps. 
+                                </p>
+                            <p class="card-text">My objective is simply to be the best
+                                web developer that I can be and to
+                                contribute to the technology industry
+                                all that I know and can do. I am
+                                dedicated to perfecting my craft by
+                                learning from more seasoned
+                                developers, remaining humble, and
+                                continuously making strides to learn all
+                                that I can about development.</p>
+                        </div>
+                    </div>
+                </div>
+            <!-- </div> -->
+            <!-- to create spacing -->
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                    <div class="contact">
+                        jkesler@hotmail.com
+                        <br>
+                        912-656-5816
+                        <br>
+                        <span style="font-size: 2rem; color:black;">
+                            <a href="https://github.com/jonkesler">
+                                <i class="fab fa-github-square" style="color:gray"></i>
+                            </a>
+                            <a href="https:www.linkedin.com/in/jon-kesler-b39b8747">
+                                <i class="fab fa-linkedin" style="color:gray;"></i>
+                            </a>
+                        </span>
+                    </div>  
+                </div>
+            </div>
+        </section>
+<!-- Sticky footer -->
+        <footer class="footer">
+            <div class="container">
+                <span>&copy; copywrite Jon Kesler</span>
+            </div>
+        </footer>
+
+    </div>  <!-- /.main-container -->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+  </html>
